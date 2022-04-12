@@ -9,13 +9,7 @@ import ornamen from '../assets/Ornament@0,5x.png';
 import oval from '../assets/@0.5xOval.png';
 
 class PasswordBaru extends React.Component {
-    constructor(props) {
-        super(props)
-        this.state = {
-
-        }
-    }
-
+    
     render() {
         return (
             <div className='body'>
