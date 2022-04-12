@@ -1,11 +1,9 @@
-// import React from 'react';
+
 import {Route, Routes} from 'react-router-dom'
 import LoginPage from './pages/login/login'
 import ForgotPassword from './pages/forgotPassword/forgotPassword'
-// import {
-//   Image
-// } from 'react-bootstrap'
-// import { ORNAMENT3 } from '.assets'
+import PasswordBaru from './pages/forgotPassword/passwordBaru';
+
 
 
 function App() {
@@ -14,6 +12,7 @@ function App() {
       <Routes>
         <Route path="/" element={<LoginPage/>} exact/>
         <Route path="/forgotpassword" element={<ForgotPassword/>}/>
+        <Route path="/passwordbaru" element={<PasswordBaru/>}/>
       </Routes>
     </div>
   );

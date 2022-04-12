@@ -24,8 +24,8 @@ class LoginPage extends React.Component {
                 </div>
                 <div className='welcome'>
                     <img className='t' src={oval} alt="@0.5xOval" />
-                    <div className="selamat">Selamat Datang Kembali</div>
-                    <div className="silahkan">Silahkan masukkan email dan password Anda</div>
+                    <div className='selamat'>Selamat Datang Kembali</div>
+                    <div className='silahkan'>Silahkan masukkan email dan password Anda</div>
                     <div className="email">
                         <Form>
                             <Form.Group className="mb-3" controlId="formBasicEmail">
