@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Be+Vietnam+Pro:wght@600&display=swap" rel="stylesheet');
+
 .allrec {
     background-color: #FFFFFF;
     box-shadow: 0 1px 10px 0 rgba(0, 0, 0, 0.09);
@@ -7,12 +9,26 @@
 
 .title {
     display: flex;
+    justify-content: center;
+}
+
+.t {
+    background-image: url(https://marvel-live.freetls.fastly.net/canvas/2022/2/032bcc7d156941b89c8c313e7ba99b6c?quality=95&fake=.png);
+    background-size: 100%;
+    border-radius: 100%;
+    width: 40px;
+    height: 40px;
+    margin-top: 28px;
+    margin-right: 16px;
+    
 }
 
 .sfa {
     color: #42010D;
-    font-family: BeVietnamPro;
+    font-family: 'Be Vietnam Pro', sans-serif;
     font-size: 18px;
     line-height: 22px;
     text-align: center;
+    font-weight: bold;
+    margin-top: 36px;
 }
