@@ -1,0 +1,13 @@
+.navbody {
+    width: 1094px;
+    height: 75px;
+}
+
+.drop {
+    justify-content: space-between;
+    padding-left: 800px;
+}
+
+.box-profile {
+    display: flex;
+}

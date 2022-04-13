@@ -5,8 +5,8 @@ import {
 
 } from 'react-bootstrap'
 import './forgotPassword.css';
-import ornamen from '../assets/Ornament@0,5x.png';
-import oval from '../assets/@0.5xOval.png';
+import ornamen from '../../assets/Ornament@0,5x.png';
+import oval from '../../assets/@0.5xOval.png';
 
 class ForgotPassword extends React.Component {
     

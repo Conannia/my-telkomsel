@@ -1,0 +1,28 @@
+.allprofil {
+    width: 1366px;
+    height: 768px;
+    background-color: aqua;
+    display: flex;
+}
+
+.box-profile {
+    display: flex;
+}
+
+.box-one {
+    background-color: #FFFFFF;
+    border-radius: 12px;
+    box-shadow: 0 6px 14px 0 rgba(0, 0, 0, 0.07);
+    width: 304px;
+    height: 418px;
+    margin: 24px;
+}
+
+.box-two {
+    background-color: #FFFFFF;
+    border-radius: 12px;
+    box-shadow: 0 6px 14px 0 rgba(0, 0, 0, 0.07);
+    width: 691px;
+    height: 418px;
+    margin: 24px;
+}
