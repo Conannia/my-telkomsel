@@ -1,0 +1,6 @@
+.alldashboard {
+    width: 1366px;
+    height: 768px;
+    background-color: aqua;
+    display: flex;
+}

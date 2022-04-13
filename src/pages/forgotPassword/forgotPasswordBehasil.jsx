@@ -3,7 +3,7 @@ import './forgotPasswordBerhasil.css';
 import {
     Button
 } from 'react-bootstrap'
-import success from '../assets/Success_Boy Girl.png';
+import success from '../../assets/Success_Boy Girl.png';
 
 class ForgotPasswordBerhasil extends React.Component {
 
