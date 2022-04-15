@@ -7,6 +7,7 @@ import ForgotPasswordBerhasil from './pages/forgotPassword/forgotPasswordBehasil
 import Profil from './pages/profil/profil';
 import Dashboard from './pages/profil/dashboard';
 import UbahPasswordBerhasil from './pages/forgotPassword/ubahPaswordBerhasil';
+import UbahPasswordProfile from './pages/profil/ubahPasswordProfile';
 
 
 
@@ -21,6 +22,7 @@ function App() {
         <Route path="/profil" element={<Profil/>}/>
         <Route path="/dashboard" element={<Dashboard/>}/>
         <Route path="/loginn" element={<UbahPasswordBerhasil/>}/>
+        <Route path="/ubahpasswordprofile" element={<UbahPasswordProfile/>}/>
       </Routes>
     </div>
   );
