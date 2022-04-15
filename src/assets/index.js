@@ -1,1 +1,3 @@
-export const ORNAMENT3 = require('./Ornament@3x.png')
+export const OVAL = require('./Oval.png')
+export const ORNAMENT = require('./Ornament@1,5x.png')
+export const SUCCESS = require('./Success_Boy Girl.png')

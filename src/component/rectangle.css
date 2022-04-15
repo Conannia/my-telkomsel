@@ -5,6 +5,7 @@
     box-shadow: 0 1px 10px 0 rgba(0, 0, 0, 0.09);
     width: 270px;
     height: 768px;
+    background-color: chartreuse;
 }
 
 .title {
@@ -12,7 +13,7 @@
     justify-content: center;
 }
 
-.t {
+.oval {
     background-image: url(https://marvel-live.freetls.fastly.net/canvas/2022/2/032bcc7d156941b89c8c313e7ba99b6c?quality=95&fake=.png);
     background-size: 100%;
     border-radius: 100%;
@@ -32,3 +33,40 @@
     font-weight: bold;
     margin-top: 36px;
 }
+
+.poin{
+    margin-top: 50px;
+}
+
+.dashboard {
+    color: #8D8D8D;
+    font-family: 'Be Vietnam Pro', sans-serif;
+    font-size: 15px;
+    line-height: 18px;
+    text-align: center;
+    width: 235px;
+    height: 50px;
+    margin-left: 18px;
+  }
+.purchase-order {
+    color: #8D8D8D;
+    font-family: 'Be Vietnam Pro', sans-serif;
+    font-size: 15px;
+    line-height: 18px;
+    text-align: center;
+    width: 235px;
+    height: 50px;
+    margin-left: 18px;
+    margin-top: 16px;
+    margin-bottom: 16px;
+  }
+.laporan {
+    color: #8D8D8D;
+    font-family: 'Be Vietnam Pro', sans-serif;
+    font-size: 15px;
+    line-height: 18px;
+    text-align: center;
+    width: 235px;
+    height: 50px;
+    margin-left: 18px;
+  }

@@ -1,8 +1,23 @@
 .allprofil {
     width: 1366px;
     height: 768px;
-    background-color: aqua;
     display: flex;
+}
+
+.profil {
+    margin-top: 44px;
+    margin-left: 25px;
+    color: #000000;
+    font-family: 'Be Vietnam Pro', sans-serif;
+    font-size: 28px;
+    line-height: 34px;
+    text-align:left;
+    font-weight: 700;
+}
+
+.content {
+    width: 1096px;
+    background-color: aqua;
 }
 
 .box-profile {
@@ -16,6 +31,7 @@
     width: 304px;
     height: 418px;
     margin: 24px;
+    justify-content: center;
 }
 
 .box-two {
@@ -26,3 +42,51 @@
     height: 418px;
     margin: 24px;
 }
+.foto {
+    width: 171px;
+    height: 171px;
+    background-color: aquamarine;
+    margin: 62px 61px 17px 72px;
+}
+
+.wanda-maximoff {
+    color: #000000;
+    font-family: 'Be Vietnam Pro', sans-serif;
+    font-size: 16px;
+    line-height: 34px;
+    text-align: center;
+    width: 168px;
+    height: 25px;
+    margin-left: 68px;
+    margin-right: 68px;
+    font-weight: 700;
+
+  }
+
+  .management {
+    color: #8D8D8D;
+    font-family: 'Be Vietnam Pro', sans-serif;
+    font-size: 16px;
+    line-height: 34px;
+    text-align: center;
+  }
+
+  .ubah-password-profile {
+    background-color: #AD0020;
+    border-radius: 15px;
+    width: 180px;
+    height: 48px;
+    margin-left: 62px;
+    margin-right: 62px;
+    margin-top: 28px;
+  }
+
+  .informasi-umum {
+    color: #160D0D;
+    font-family: 'Be Vietnam Pro', sans-serif;
+    font-size: 18px;
+    line-height: 22px;
+    margin-top: 47px;
+    margin-left: 33px;
+    font-weight: 600;
+  }  
