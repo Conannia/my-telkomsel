@@ -2,6 +2,9 @@ import React from "react";
 import './profil.css';
 import NavProfile from "../../component/navprofile";
 import Rectangle from "../../component/rectangle";
+import {
+    Button
+} from 'react-bootstrap';
 
 class Profil extends React.Component {
 
@@ -9,18 +12,25 @@ class Profil extends React.Component {
         return (
             <div className="allprofil">
                 <Rectangle />
-                <div className="right">
+                <div className="kanan">
                     <NavProfile />
-                    <div className="content">
-                        Profil
-                    </div>
+                    <div className="profil">Profil</div>
                     <div className="box-profile">
-                        <div className="box-one">Wanda</div>
-                        <div className="box-two">Data</div>
+                        <div className="box-one">
+                            <div className="foto"></div>
+                            <div className="wanda-maximoff">
+                                Wanda Maximoff
+                            </div>
+                            <div className="management">Management</div>
+                            <Button className='ubah-password-profile' variant="danger" type="submit">
+                                Ubah Password
+                            </Button>
+                        </div>
+                        <div className="box-two">
+                            <div className="informasi-umum">Informasi Umum</div>
+                        </div>
                     </div>
                 </div>
-
-
 
             </div>
         )

@@ -1,6 +1,10 @@
 import React from "react";
 import './rectangle.css';
-import oval from '../assets/@0.5xOval.png';
+import {
+    Image,
+    Button,
+} from 'react-bootstrap'
+import { OVAL } from '../assets'
 
 
 class Rectangle extends React.Component {
@@ -8,11 +12,13 @@ class Rectangle extends React.Component {
         return (
             <div className="allrec">
                 <div className="title">
-                    <img className='t' src={oval} alt="@0.5xOval" />
+                    <Image className="oval" src={OVAL} />
                     <div className="sfa">SFA Telkomsel</div>
                 </div>
                 <div className="poin">
-
+                    <Button className='dashboard' > Dashboard </Button>
+                    <Button className='purchase-order' > Purchase Order </Button>
+                    <Button className='laporan' > Laporan </Button>
                 </div>
             </div>
         )
