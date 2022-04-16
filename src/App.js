@@ -9,6 +9,7 @@ import Dashboard from './pages/profil/dashboard';
 import UbahPasswordBerhasil from './pages/forgotPassword/ubahPaswordBerhasil';
 import UbahPasswordProfile from './pages/profil/ubahPasswordProfile';
 import PasswordBaruProfile from './pages/profil/passwordBaruProfile';
+import NotifikasiPage from './pages/notifikasi/notifikasiPage';
 
 
 
@@ -25,6 +26,8 @@ function App() {
         <Route path="/loginn" element={<UbahPasswordBerhasil/>}/>
         <Route path="/ubahpasswordprofile" element={<UbahPasswordProfile/>}/>
         <Route path="/passwordbaruprofile" element={<PasswordBaruProfile/>}/>
+        <Route path="/notifikasi" element={<NotifikasiPage/>}/>
+
       </Routes>
     </div>
   );
