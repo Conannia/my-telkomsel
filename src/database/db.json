@@ -1,18 +1,28 @@
 {
-    "users": [
-      {
-        "id": 1,
-        "username": "admin",
-        "password": "admin",
-        "email": "admin@gmail.com",
-        "role": "admin"
-      },
-      {
-        "id": 2,
-        "username": "a",
-        "password": "23!",
-        "email": "kensanders@gmail.com",
-        "role": "user"
-      }
-    ]
+  "users": [
+    {
+      "id": 1,
+      "email": "mymail@mailer.com",
+      "password": "inipassword",
+      "username": "wanda",
+      "role": "management"
+    },
+    {
+      "id": 2,
+      "email": "mymail1@mailer.com",
+      "password": "inipassword1",
+      "username": "roger",
+      "role": "admin"
+    }
+  ],
+  "comments": [
+    {
+      "id": 1,
+      "body": "some comment",
+      "postId": 1
+    }
+  ],
+  "profile": {
+    "name": "typicode"
   }
+}
