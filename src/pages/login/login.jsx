@@ -1,5 +1,6 @@
 import React from "react";
 import './login.css';
+import Axios from "axios";
 import {
     Image,
     Button,
@@ -34,6 +35,11 @@ class LoginPage extends React.Component {
             return this.setState({ error: true })
         }
 
+        // Axios.get(`http://localhost:2000/users?email=${email}&password${password}`)
+        //     .then(res => {
+        //         console.log(res.data)
+        //     })
+
         this.props.login(email, password)
 
 
@@ -55,11 +61,11 @@ class LoginPage extends React.Component {
                     <div className="email-">
                         <label className="emaill" >Email</label>
                         <InputGroup className="mb-3">
-                            <InputGroup.Prepend>
-                                <InputGroup.Text id="basic-addon1">
+                            <InputGroup>
+                                <InputGroup id="basic-addon1">
                                     <i className="fas fa-user-circle"></i>
-                                </InputGroup.Text>
-                            </InputGroup.Prepend>
+                                </InputGroup>
+                            </InputGroup>
                             <FormControl
                                 placeholder="email@email.com"
                                 ref="email"
@@ -69,11 +75,11 @@ class LoginPage extends React.Component {
 
                         <label className="emaill" >Password</label>
                         <InputGroup className="mb-3" >
-                            <InputGroup.Prepend>
-                                <InputGroup.Text id="basic-addon1" onClick={() => this.setState({ visibility: !visibility })}>
+                            <InputGroup>
+                                <InputGroup id="basic-addon1" onClick={() => this.setState({ visibility: !visibility })}>
                                     {visibility ? <i className="fas fa-eye"></i> : <i className="fas fa-eye-slash"></i>}
-                                </InputGroup.Text>
-                            </InputGroup.Prepend>
+                                </InputGroup>
+                            </InputGroup>
                             <FormControl
                                 placeholder="Password"
                                 type={visibility ? "text" : "password"}
@@ -94,11 +100,11 @@ class LoginPage extends React.Component {
                     </div>
 
                     <div className="components-link-text-link">Lupa Password</div>
-                    <div className="masuk-">
-                        <Button onClick={this.onLogin} className='masuk-' variant="danger" type="submit">
+                    <Button className="masuk-"> Masuk
+                        {/* <Button onClick={this.onLogin} className='masuk-' variant="danger" type="submit">
                             Masuk
-                        </Button>
-                    </div>
+                        </Button> */}
+                    </Button>
 
                 </div>
                 <Modal show={this.state.error}>
